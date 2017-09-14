@@ -30,11 +30,7 @@
         s.parentNode.insertBefore(ga, s);
     })();
     
-    $("p span").hover(function(){
-       $(this).animate({fontSize: "32px"}, 300)
-   }, function() {
-      $(this).animate({fontSize: "20"}, 300)  
-   })
+   
     
     </script>
 </head>
@@ -216,6 +212,11 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js" charset="utf-8"></script>
     <script src="chart.js"></script>
     <br><br><p><span>!!!!!!!!!!!!!</span></p>
+    <script> $("p span").hover(function(){
+       $(this).animate({fontSize: "32px"}, 300)
+   }, function() {
+      $(this).animate({fontSize: "20"}, 300)  
+   })</script>
 </body>
 
 </html>
