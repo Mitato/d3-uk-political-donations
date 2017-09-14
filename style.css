@@ -2,6 +2,11 @@ body {
     background-color: #ffffff;
     font-family:'Raleway', 'Open Sans', sans-serif;
 }
+
+span {
+   font-size: 20px;
+}
+
 p {
     margin: 5px 0;
 }
