@@ -29,6 +29,13 @@
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(ga, s);
     })();
+    
+    $("h2 span").hover(function(){
+       $(this).animate({fontSize: "32px"}, 300)
+   }, function() {
+      $(this).animate({fontSize: "20"}, 300)  
+   })
+    
     </script>
 </head>
 <!-- Add feature detection and noscript -->
