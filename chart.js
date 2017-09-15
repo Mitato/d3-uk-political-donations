@@ -328,7 +328,7 @@ function mouseover(d, i) {
 		.html(infoBox)
 			.style("display","block");
 	
-	responsiveVoice.speak("Hello World");
+	responsiveVoice.speak(party + amount + " pounds");
 	}
 
 function mouseout() {
