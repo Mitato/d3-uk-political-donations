@@ -327,6 +327,8 @@ function mouseover(d, i) {
     .style("top", (parseInt(d3.select(this).attr("cy") - (d.radius+150)) + offset.top) + "px")
 		.html(infoBox)
 			.style("display","block");
+	<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+	responsiveVoice.speak("Hello World");
 	}
 
 function mouseout() {
